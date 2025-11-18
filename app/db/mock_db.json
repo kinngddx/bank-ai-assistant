@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Umang",
+            "password": "1234",
+            "balance": 500000,
+            "phone": "8470901180"
+        }
+    ],
+    "transactions": [
+        {
+            "user_id": 1,
+            "amount": 20000,
+            "type": "debit",
+            "description": "Game shopping"
+        }
+    ],
+    "otps": []
+}

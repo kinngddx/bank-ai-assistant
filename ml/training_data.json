@@ -1,0 +1,24 @@
+{
+    "CheckBalance": [
+        "check my balance",
+        "what is my account balance",
+        "show balance",
+        "balance please"
+    ],
+    "RecentTransactions": [
+        "show recent transactions",
+        "list last transactions",
+        "transaction history",
+        "what did I spend"
+    ],
+    "TransferMoney": [
+        "transfer 500 to raju",
+        "send money",
+        "make a payment"
+    ],
+    "VerifyOTP": [
+        "my otp is",
+        "otp is",
+        "the code is"
+    ]
+}
