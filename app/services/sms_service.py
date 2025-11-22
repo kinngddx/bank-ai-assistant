@@ -1,12 +1,11 @@
 import os
 import requests
-from dotenv import load_dotenv
-
-load_dotenv()
-
-FAST2SMS_API_KEY = os.getenv("FAST2SMS_API_KEY")
+from ..config import FAST2SMS_API_KEY
 
 def send_sms(phone: str, message: str):
+    if not FAST2SMS_API_KEY:
+        return {"status": "skipped", "reason": "No API key"}
+    
     url = "https://www.fast2sms.com/dev/bulkV2"
     headers = {
         "authorization": FAST2SMS_API_KEY,
